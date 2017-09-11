@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_train"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tk.jennyhome.memorymaster.TrainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/train_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_train_fragment" />
+
+    <Button
+        android:id="@+id/train_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/train_button"/>
+</FrameLayout>
